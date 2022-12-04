@@ -90,8 +90,8 @@ header{
   padding-bottom: 10px;
 }
 .header img{
-  width: 120px;
-  height: 120px;
+  width: 100px;
+  height: 100px;
   stroke: black;
   stroke-width: 5px;
 }
@@ -105,6 +105,7 @@ header{
   justify-content: center;
   background-color: white;
   gap: 50px;
+  z-index: 100;
 }
 
 a{
