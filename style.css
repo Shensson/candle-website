@@ -114,18 +114,21 @@ header img{
   font-weight: 500;
 }
 .searchBox{
+  display: none;
+  margin-top: 5px;
   position: absolute;
   right: -100%;
   padding: 0px 650px;
   padding-right: 250px;
   width: 100%;
-  height: 100%;
+  height: min-content;
   display: flex;
   align-items: center;
   transition: 0.7s ease-in-out;
 }
 .searchBox.active{
   right: -15%;
+  height: min-content;
 }
 .searchBox input{
   padding: 0px 20px;
@@ -177,7 +180,6 @@ header img{
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 50px;
   height: 700px;
 }
 .gif-video h1{
@@ -185,7 +187,7 @@ header img{
   font-size: 100px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
-  margin-top: 250px;
+  margin-top: 200px;
   letter-spacing: 80px;
   color: white;
 }
