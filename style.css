@@ -78,9 +78,10 @@ select {
 body{
   background-image: url(images/Candle_advertising.gif);
   background-size: 1540px;
+  overflow-x: hidden;
 }
 header{
-  margin-top: 5px;
+  margin: 5px 10px;
   display: grid;
   grid-template-columns: 500px auto 500px;
   align-content: center;
@@ -103,7 +104,10 @@ header{
   margin-right: 50px;
 }
 header img{
-  width: 60px;
+  width: 55px;
+}
+#navbar{
+  align-items: center;
 }
 
 .search:hover .icon:hover{
@@ -118,9 +122,8 @@ header img{
   margin-top: 5px;
   position: absolute;
   right: -100%;
-  padding: 0px 650px;
   padding-right: 250px;
-  width: 100%;
+  width: 55%;
   height: min-content;
   display: flex;
   align-items: center;
@@ -145,7 +148,6 @@ header img{
   position: relative;
   right: -200px;
   color: white;
-  top: 20px;
   transition: 0.5s ease-in-out;
 }
 .searchBtn.active{
@@ -172,11 +174,12 @@ header img{
 }
 .sticky{
   position: fixed;
-  top: 0;
-  width: 100%;
+  margin: 5px 10px;
+  width:calc(100% - 20px) !important
 }
 
 .gif-video{
+
   display: flex;
   flex-direction: column;
   align-items: center;
