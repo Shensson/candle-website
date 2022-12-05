@@ -1,3 +1,4 @@
+/* sticky header */
 window.onscroll = function() {myFunction()};
 
 var navbar = document.getElementById("navbar");
@@ -10,7 +11,7 @@ function myFunction(){
     navbar.classList.remove("sticky");
   }
 }
-
+/* search box buttons */
 let searchBtn = document.querySelector('.searchBtn');
 let closeBtn = document.querySelector('.closeBtn');
 let searchBox = document.querySelector('.searchBox');

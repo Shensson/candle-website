@@ -80,24 +80,27 @@ body{
   background-size: 1540px;
 }
 header{
+  margin-top: 5px;
   display: grid;
-  grid-template-columns: 33% 33% 33%;
+  grid-template-columns: 500px auto 500px;
   align-content: center;
   justify-items: center;
 }
 .top-nav{
-  padding: 20px 30px;
+  padding: 10px 30px;
   width: 540px;
+  padding-left: 1.75rem;
 }
 .top-nav a:hover{
   border-bottom: 2px solid white;
   transition: 0.5s ease-in-out linear;
 }
 .top-nav a{
+  vertical-align: middle;
   text-decoration: none;
   color: white;
   padding: 5px 5px;
-  margin-right: 48px;
+  margin-right: 50px;
 }
 header img{
   width: 60px;
@@ -175,13 +178,14 @@ header img{
   flex-direction: column;
   align-items: center;
   padding-top: 50px;
+  height: 700px;
 }
 .gif-video h1{
   text-align: center;
   font-size: 100px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
-  margin-top: 150px;
+  margin-top: 250px;
   letter-spacing: 80px;
   color: white;
 }
