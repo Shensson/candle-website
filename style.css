@@ -80,36 +80,26 @@ body{
   background-size: 1540px;
   overflow-x: hidden;
 }
-header{
-  margin: 5px 10px;
-  display: grid;
-  grid-template-columns: 500px auto 500px;
-  align-content: center;
-  justify-items: center;
+header {
+  width: 100%;
+  margin: 0;
+  height: auto;
 }
-.top-nav{
-  padding: 10px 30px;
-  width: 540px;
-  padding-left: 1.75rem;
+nav{
 }
-.top-nav a:hover{
-  border-bottom: 2px solid white;
-  transition: 0.5s ease-in-out linear;
+ul{
+  list-style: none;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
 }
-.top-nav a{
-  vertical-align: middle;
+li > a{
   text-decoration: none;
   color: white;
-  padding: 5px 5px;
-  margin-right: 50px;
 }
-header img{
-  width: 55px;
+.logo img{
+  
 }
-#navbar{
-  align-items: center;
-}
-
 .search:hover .icon:hover{
   cursor: pointer;
 }
@@ -146,7 +136,6 @@ header img{
 }
 .searchBtn{
   position: relative;
-  right: -200px;
   color: white;
   transition: 0.5s ease-in-out;
 }
@@ -179,7 +168,6 @@ header img{
 }
 
 .gif-video{
-
   display: flex;
   flex-direction: column;
   align-items: center;
